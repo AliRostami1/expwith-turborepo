@@ -1,0 +1,18 @@
+{
+	"name": "test-auth",
+	"version": "1.0.0",
+	"main": "index.js",
+	"private": true,
+	"workspaces": [
+		"packages/*",
+		"apps/*"
+	],
+	"packageManager": "yarn@3.2.2",
+	"devDependencies": {
+		"turbo": "^1.4.3"
+	},
+	"scripts": {
+		"lint": "turbo run lint",
+		"dev": "turbo run dev"
+	}
+}
